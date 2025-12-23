@@ -19,21 +19,24 @@ A simple, feature-rich blog application built with **Django 5**. Supports user a
 
 ## 🚀 Getting Started
 
-Blog homepage: <http://127.0.0.1:8000/>
-Admin panel: <http://127.0.0.1:8000/admin/>
-🗂️ Project Structure
+### 🗂️ Project Structure
+
 mysite/ – Main Django project settings and root URLs
 blog/ – Django app containing models, views, and templates
 templates/ – Not used (templates are inside blog/templates/)
 blog/templates/blog/ – All HTML templates for the blog
-🔐 Authentication
+
+###  🔐 Authentication
+
 Login: /login/
 Logout: /logout/ (uses GET for simplicity in development)
 Only authenticated users can:
 Create new posts
 View drafts
 Publish or edit their posts
-📝 License
+
+###  📝 License
+
 This project is for educational and personal use. No license specified — feel free to modify and learn!
 
 Made with ❤️ by Caeser Ibrahim
